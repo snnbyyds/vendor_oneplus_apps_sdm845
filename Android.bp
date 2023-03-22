@@ -1,0 +1,16 @@
+soong_namespace {
+}
+
+android_app_import {
+    name: "OnePlusCamera",
+    owner: "oneplus",
+    apk: "vendor/priv-app/OnePlusCamera/OnePlusCamera.apk",
+    dex_preopt: {
+        enabled: false,
+    },
+    presigned: true,
+    privileged: true,
+    vendor: true,
+    overrides: ["Aperture", "Camera2", "Snap", "MiuiCamera", "SnapdragonCamera"],
+}
+
