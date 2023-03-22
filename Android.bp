@@ -11,6 +11,6 @@ android_app_import {
     presigned: true,
     privileged: true,
     vendor: true,
-    overrides: ["Aperture", "Camera2", "Snap", "MiuiCamera", "SnapdragonCamera"],
+    overrides: ["Camera2", "Snap", "MiuiCamera", "SnapdragonCamera"],
 }
 
